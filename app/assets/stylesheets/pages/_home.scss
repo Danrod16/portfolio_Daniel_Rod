@@ -1,1 +1,14 @@
 // Specific CSS for your home-page
+.quote {
+  display: block;
+  text-align: center;
+  padding-bottom: 60px;
+  margin-top: 50px;
+}
+
+.quote h3 {
+  border-bottom-style: solid;
+  border-color:#83FFCC;
+  padding: 0px;
+  border-width: max-content;
+}
