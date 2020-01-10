@@ -20,6 +20,12 @@
   .cell h2 {
   float: left;
   }
+  .banner h1 {
+    font-size: 2em !important;
+  }
+  .banner span {
+    font-size: 0.5em !important;
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -29,6 +35,12 @@
   }
   .cell h2 {
   float: left;
+  }
+  .banner h1 {
+    font-size: 2em !important;
+  }
+  .banner span {
+    font-size: 0.5em !important;
   }
 }
 

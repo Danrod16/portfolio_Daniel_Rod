@@ -12,10 +12,10 @@
 }
 
 .scroll {
-  position: absolute;
-  bottom: 5px;
-  left: 50%;
-  width: 85px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
   text-align: center;
 }
 .scroll i {
