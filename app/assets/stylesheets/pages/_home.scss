@@ -12,3 +12,17 @@
   padding: 0px;
   border-width: max-content;
 }
+
+#help {
+  background-color: white;
+  color: black;
+}
+
+#help h2 {
+  background-color: none;
+}
+
+#help li {
+  display: inline-flex;
+}
+

@@ -1,88 +1,90 @@
 <div class="banner">
-  <div class="container">
-    <h1>Hello, I'm <strong style="color:#83FFCC">Daniel Rodriguez</strong></h1>
-    <h3>Full-stack web developer and digital merketer</h3>
-    <p style="color: white; font-size: 30px; border-left-style: ; border-color: white; padding-left: 10px;"><span id="banner-typed-text"></span></p>
     <nav class="nav">
-      <%= link_to "I'll help you", :anchor => "help"%>
-      <%= link_to "About me",:anchor => "about"%>
-      <%= link_to "Portfolio",:anchor => "portfolio"%>
-
-      <%= link_to "Contact",:anchor => "contact"%>
+      <div class="popup">
+        <img src="https://res.cloudinary.com/therainycloud/image/upload/v1578657512/Untitled_design_24_1_grcw9w.png"></a>
+      <div class="bubble">
+        <span>Taco!</span>
+      </div>
+      <%= link_to "I'LL HELP YOU", :anchor => "help"%>
+      <%= link_to "ME",:anchor => "about"%>
+      <%= link_to "WORK",:anchor => "portfolio"%>
+      <%= link_to "SAY HELLO",:anchor => "contact"%>
     </nav>
-  </div>
+    <div class="banner-t">
+      <h1>Hi! I'm <strong class="glitch is-glitching" data-text="Daniel">Daniel</strong>,</h1>
+      <h1>Full-stack web developer </h1>
+      <h1>& digital marketer</h1>
+      <p style="color: black; font-size: 3em; border-left-style: ; border-color: white; padding-left: 10px;"><span id="banner-typed-text"></span></p>
+    </div>
+    <div class="scroll">
+      <%= link_to :anchor => "help" do %>
+      <i class="fas fa-angle-down"></i>
+      <p>scroll</p>
+      <% end %>
+    </div>
 </div>
-<div class="container" style="margin-top: 100px;">
-  <div class="layout-grid">
-    <div class="cell">
-      <h2 id="help">I'll help you</h2>
+  <section id="help">
+<div class="container">
+        <h2>I'll help you</h2>
+        <h3>from the napkin to the top!</h3>
+          <ul>
+            <li><i class="far fa-sticky-note" style="text-align: center;"></i><p> SCRUM planning to identify key value proposition</p></li>
+            <li><i class="fab fa-figma"></i>Prototype design for early validation</li>
+            <li><i class="fas fa-laptop-code"></i>Build the digital product from back to front</li>
+            <li><i class="fab fa-searchengin"></i>Optimize the site for SEO/SEM</li>
+            <li><i class="fas fa-hashtag"></i>Develop a digital marketing strategy sprint</li>
+          </ul>
     </div>
-    <div class="cell">
-      <h3>from the napkin to the top!</h3>
-        <i class="far fa-sticky-note" style="text-align: center;"></i><p> SCRUM planning to identify key value proposition</p>
-        <i class="fab fa-figma"></i> <p>Prototype design for early validation</p>
-        <i class="fas fa-laptop-code"></i><p> Build the digital product from back to front</p>
-        <i class="fab fa-searchengin"></i><p> Optimize the site for SEO/SEM</p>
-        <i class="fas fa-hashtag"></i><p> Develop a digital marketing strategy sprint</p>
+  </section>
+  <section id="about">
+    <div class="layout-grid">
+      <div class="cell">
+        <h2>About me</h2>
+          <img src="https://res.cloudinary.com/therainycloud/image/upload/v1577403402/Untitled_design_22_jt8hhj.png" alt="Where is Daniel Rodriguez now?">
+          <p style="text-align: center; margin-top: 15px;">Currently in <strong style="background-color:#83FFCC; color: black;">Barcelona</strong></p>
+      </div>
+      <div class="cell">
+        <h3>A worldwide inspired thinking</h3>
+          <p>I am a Spanish, Mexican, French startup Junky who lived in more than 7 countries, which gave me a culturally international approach to design and entrepreneurship</p>
+          <br>
+          <p>Most of my carreer was in digital marketing, I eventually specialised on finding ways to get awesome products out in the world while generating sustainable revenue for it.</p>
+          <br>
+          <p>It is only in 2019 that I decided that working other people's ideas felt short for my restless personality, so I decided to learn to code. Now I am a Full-Ftack web developer eager to transform innovative ideas into successful businesses.</p>
+      </div>
     </div>
-    <div class="cell">
-      <h2 id="about">About me</h2>
-      <img src="https://res.cloudinary.com/therainycloud/image/upload/v1577403402/Untitled_design_22_jt8hhj.png" alt="Where is Daniel Rodriguez now?">
-      <p style="text-align: center; margin-top: 15px;">Currently in <strong style="background-color:#83FFCC; color: black;">Barcelona</strong></p>
-    </div>
-    <div class="cell">
-      <h3>A worldwide inspired thinking</h3>
-        <p>I am a Spanish, Mexican, French startup Junky who lived in more than 7 countries, which gave me a culturally international approach to design and entrepreneurship</p>
-        <br>
-        <p>Most of my carreer was in digital marketing, I eventually specialised on finding ways to get awesome products out in the world while generating sustainable revenue for it.</p>
-        <br>
-        <p>It is only in 2019 that I decided that working other people's ideas felt short for my restless personality, so I decided to learn to code. Now I am a Full-Ftack web developer eager to transform innovative ideas into successful businesses.</p>
-    </div>
-     <div class="cell">
-       <h2>Skills & Languages</h2>
-     </div>
-     <div class="cell">
-      <h3>Tech Stack</h3>
-        <div class="layout-grid">
-          <div class="cell">
-            <i class="fab fa-html5"></i>Html & CSS
-          </div>
-          <div class="cell">
-           <i class="fab fa-js"></i>
-             JavaScript
-          </div>
-          <div class="cell">
-           <i class="far fa-gem"></i>
-             Ruby on Rails
-          </div>
-          <div class="cell">
-           <i class="fas fa-stream"></i>
-             Web positioning SEO/SEM
-          </div>
-          <div class="cell">
-           <i class="fas fa-paint-brush"></i>
-             Design
-          </div>
-          <div class="cell">
-           <i class="fas fa-language"></i>
-             Spanish/French/Eh
-          </div>
-          <div class="cell">
-           <i class="fas fa-hashtag"></i>
-             Community management
-          </div>
+  </section>
+  <section id="skills">
+    <div class="layout-grid">
+       <div class="cell">
+         <h2>Skills & Languages</h2>
+       </div>
+       <div class="cell">
+        <h3>Tech Stack</h3>
+          <ul>
+            <li><i class="fab fa-html5"></i>  Html & CSS</li>
+            <li><i class="fab fa-js"></i>  JavaScript</li>
+            <li><i class="far fa-gem"></i>  Ruby on Rails</li>
+            <li><i class="fas fa-stream"></i>  Web positioning SEO/SEM</li>
+            <li><i class="fas fa-paint-brush"></i> Design</li>
+          </ul>
         </div>
-        <h3>Digital Marketing</h3>
+        <div class="cell">
+
+        </div>
+        <div class="cell">
+          <h3 style="padding: 30px 0px;">  Digital Marketing</h3>
+            <li><i class="fas fa-language"></i>  Spanish/French/Eh</li>
+            <li><i class="fas fa-hashtag"></i>  Community management</li>
+        </div>
 
      </div>
-
-  </div>
+  </section>
 </div>
-  <div class="portfolio" id="portfolio"  style="background-color: #E5E5E5;">
+  <section class="portfolio" id="portfolio"  style="background-color: #E5E5E5;">
     <div class="container">
       <div class="layout-grid" style="padding: 50px 0px;">
         <div class="cell">
-          <h2 style="margin: auto;">portfolio</h2>
+          <h2>portfolio</h2>
           <a href="http://airloan.herokuapp.com/" target="_blank"><img src="https://res.cloudinary.com/therainycloud/image/upload/v1577407107/Untitled_design_21_bpm3jf.png" alt="#"></a>
         </div>
         <div class="cell" style="align-self: end;">
@@ -99,6 +101,6 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
 

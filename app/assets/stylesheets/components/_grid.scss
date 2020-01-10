@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
-  margin-top: 15px;
 }
 
 .cell h2 {
@@ -10,7 +9,7 @@
 }
 
 .cell img {
-  width: 100%;
+  width: 89%;
 }
 
 // Smallest device
